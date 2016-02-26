@@ -6,6 +6,8 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    TMDB_BASEURL: 'http://api.themoviedb.org/3/',
+    TMDB_IMAGE_BASEURL: 'https://image.tmdb.org/t/p/',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
