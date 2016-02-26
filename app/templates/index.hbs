@@ -1,10 +1,6 @@
 <h3>Index Page</h3>
-{{#each model as |movie|}}
-
-<h4>{{movie.title}}</h4>
-<p>{{movie.overview}}</p>
-<img src="" alt="">
-{{movie.poster_path}}
+{{#each model as |movieUnit|}}
+    {{movie-listing movie=movieUnit}}
 {{/each}}
 
 {{outlet}}
